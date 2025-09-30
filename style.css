@@ -1,0 +1,60 @@
+
+ملف CSS – style.css
+
+/* إعدادات عامة */
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* الهيدر */
+header {
+    background-color: #4CAF50; /* اللون الأخضر */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* العناوين */
+h1, h2 {
+    margin: 10px 0;
+}
+
+/* المحتوى الرئيسي */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* أزرار أو نصوص الحجز */
+main h2 {
+    color: #4CAF50;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* أرقام التواصل */
+main p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+/* الفوتر */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* روابط أو أي عناصر إضافية */
+a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
